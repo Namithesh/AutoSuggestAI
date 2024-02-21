@@ -10,7 +10,7 @@ document.addEventListener("input", function (event) {
     });
   }
   const parentElement = document.querySelector(
-    "div.overflow-hidden.bg-token-main-surface-primary"
+    "div.overflow-hidden.bg-token-main-surface-primary",
   );
   select = document.createElement("select");
   select.id = "axilist";
@@ -19,26 +19,41 @@ document.addEventListener("input", function (event) {
   parentElement.insertBefore(select, firstChild);
   const option = document.createElement("option");
   const url = `https://search.brave.com/api/suggest?q=${inputValue}`;
-  fetch(url)
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error("Network response was not ok");
-      }
-      return response.json();
-    })
+  askForSuggestions(inputValue)
     .then((data) => {
-      select.size = data[1].length;
-      for (let i = 3; i < data[1].length; i++) {
-        displayData(data[1][i]);
-      }
+      console.log({ data });
     })
     .catch((error) => {
       console.error("There was a problem fetching the data:", error);
     });
+  // fetch(url)
+  //   .then((response) => {
+  //     if (!response.ok) {
+  //       throw new Error("Network response was not ok");
+  //     }
+  //     return response.json();
+  //   })
+  //   .then((data) => {
+  //     select.size = data[1].length;
+  //     for (let i = 3; i < data[1].length; i++) {
+  //       displayData(data[1][i]);
+  //     }
+  //   })
+  //   .catch((error) => {
+  //     console.error("There was a problem fetching the data:", error);
+  //   });
 });
 
 function displayData(data) {
   const option = document.createElement("option");
   option.textContent = data;
   select.appendChild(option);
+}
+
+async function askForSuggestions(inputValue) {
+  const answer = await chrome.runtime.sendMessage({
+    prompt: inputValue,
+  });
+  console.log({ answer });
+  return answer;
 }
