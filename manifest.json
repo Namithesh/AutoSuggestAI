@@ -1,18 +1,23 @@
 {
-  "manifest_version": 2,
-  "name": "AutoAI beta - Auto suggestion for chatgpt",
-  "version": "0.1",
-  "description": "AutoAI beta - Auto Suggestion for chatgpt and gemini",
-  "permissions": [
-    "https://search.brave.com/api/suggest*"
+  "manifest_version": 3,
+  "name": "AutoSuggestAI beta",
+  "version": "0.3",
+  "description": "Auto Suggestions for chatbots currently under beta",
+  "host_permissions": [
+       "<all_urls>"
   ],
   "icons": {
     "512": "icons/logo.png"
   },
+  
+  "background": {
+  "scripts": ["worker.js"],
+  "service_worker": "worker.js"
+  },
   "content_scripts": [
     {
-      "matches": ["*://chat.openai.com/"],
-      "js": ["background.js"]
+      "matches": ["*://chat.openai.com/*", "*://gemini.google.com/app*"],
+      "js": ["inject.js"]
     }
   ]
 }
