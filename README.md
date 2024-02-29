@@ -35,7 +35,7 @@ First of all, thank you for considering contributing! 🎉
 
 ## License
 
-See the [LICENSE.md](LICENSE.md) file for details.
+See the [LICENSE.md](LICENSE) file for details.
 
 ## Credits
 - Gratitude to the Brave browser team for providing the API that powers certain features of this extension.
