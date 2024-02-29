@@ -18,16 +18,24 @@ Once installed, the extension can be accessed by typing in input area.
 
 ## Supported Websites
 1. chat.openai.com
-2. gemini.google.com/app
+2. gemini.google.com
 3. other will added in future
 
 ## Contributing
 
-We welcome contributions from the community! If you have any ideas for new features, bug fixes, or other improvements, feel free to open an issue or submit a pull request. 
+First of all, thank you for considering contributing! 🎉
+
+### How Can You Contribute?
+
+- **Report Bugs:** If you encounter any issues, please use the GitHub issue tracker to report them.
+
+- **Request Features:** Feel free to use the issue tracker to suggest new features or improvements.
+
+- **Contribute Code:** If you want to contribute code, please fork the repository, create a feature branch, and submit a pull request.
 
 ## License
 
-This project is licensed- see the LICENSE file for details.
+See the [LICENSE.md](LICENSE.md) file for details.
 
 ## Credits
 - Gratitude to the Brave browser team for providing the API that powers certain features of this extension.
