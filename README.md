@@ -7,7 +7,7 @@ AutoAI that automatically suggests responses for chatbots based on the input. It
 [AutosuggestAI](https://addons.mozilla.org/en-US/developers/addon/autosuggestionai) is also available on the Firefox Add-ons store.
 This extention is not available on chrome web store yet please use manual Installation 
   1. Clone Repository: Clone this repository to your local machine using git clone https://github.com/HyperNB/AutoSuggestAI.git
-  2. Navigate to Extension: Open your web browser and go to chrome://extensions/ (for Chrome) or about:addons (for Firefox).
+  2. Navigate to Extension: Open your web browser and go to chrome://extensions/ (for Chrome) or about:debugging#/runtime/this-firefox (for Firefox).
   3. Enable Developer Mode: Toggle on the developer mode.
   4. Load Extension: Click on "Load unpacked" or "Load temporary addon" and select the directory where the extension files are located.
   5. Installation Complete: The extension should now be installed and ready to use.
