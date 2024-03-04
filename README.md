@@ -4,7 +4,7 @@ AutoAI that automatically suggests responses for chatbots based on the input. It
 ![Add-on Version](https://img.shields.io/amo/v/%7B6c6e2af6-d8f6-4ed8-a518-89c57b500773%7D) ![GitHub License](https://img.shields.io/github/license/hypernb/autosuggestai) ![GitHub forks](https://img.shields.io/github/forks/hypernb/autosuggestai)
 
 ## Installation
-[AutosuggestAI](https://addons.mozilla.org/en-US/developers/addon/autosuggestionai) is also available on the Firefox Add-ons store.
+[AutosuggestAI](https://addons.mozilla.org/en-US/firefox/addon/autosuggestionai/) is also available on the Firefox Add-ons store.
 This extention is not available on chrome web store yet please use manual Installation 
   1. Clone Repository: Clone this repository to your local machine using git clone https://github.com/HyperNB/AutoSuggestAI.git
   2. Navigate to Extension: Open your web browser and go to chrome://extensions/ (for Chrome) or about:debugging#/runtime/this-firefox (for Firefox).
