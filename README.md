@@ -4,7 +4,7 @@ AutoAI that automatically suggests responses for chatbots based on the input. It
 ![Add-on Version](https://img.shields.io/amo/v/%7B6c6e2af6-d8f6-4ed8-a518-89c57b500773%7D) ![GitHub License](https://img.shields.io/github/license/hypernb/autosuggestai) ![GitHub forks](https://img.shields.io/github/forks/hypernb/autosuggestai)
 
 ## Screenshot
-[![screenshot](https://addons.mozilla.org/user-media/previews/thumbs/295/295769.jpg?modified=1708170486)]()
+[![screenshot](https://addons.mozilla.org/user-media/previews/thumbs/295/295769.jpg?modified=1708170486)](https://addons.mozilla.org/user-media/previews/thumbs/295/295769.jpg?modified=1708170486)
 
 ## Installation
 [AutosuggestAI](https://addons.mozilla.org/en-US/firefox/addon/autosuggestionai/) is also available on the Firefox Add-ons store.
